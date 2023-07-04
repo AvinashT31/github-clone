@@ -64,6 +64,7 @@ const Home = () => {
                     </main>
                 </div>
 
+                {/* sign up for github */}
                 <div className='w-full h-140 bg-gray-800'>
                     <main className='w-128 m-auto h-full flex justify-between'>
                         <div className='w-12 h-full ml-4'>
@@ -120,6 +121,7 @@ const Home = () => {
                     </main>
                 </div>
 
+                {/* productivity */}
                 <main className='w-full h-96 bg-gray-800'>
                     <div className='w-128 m-auto h-full flex justify-between'>
                         <div className='w-12 h-full ml-4'>
@@ -139,8 +141,9 @@ const Home = () => {
                     </div>
                 </main>
 
-                <main className='border border-black w-full h-128 bg-gray-800'>
-                    <div className='border border-zinc-600 w-4/5 m-auto h-139 mt-20 rounded-2xl'>
+                {/* Code */}
+                <main className='pt-1 w-full h-128 bg-gray-800'>
+                    <div className='border border-zinc-600 w-4/5 m-auto mt-20 h-139 rounded-2xl'>
                         <div className='border border-zinc-600 w-full h-12 rounded-t-2xl flex'>
                             <div className='w-16 h-full flex justify-center items-center'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" viewBox="0 0 256 256"><path d="M168.49,199.51a12,12,0,0,1-17,17l-80-80a12,12,0,0,1,0-17l80-80a12,12,0,0,1,17,17L97,128Z"></path></svg>
@@ -203,7 +206,6 @@ const Home = () => {
                                             <pre class="f4"><span class="code-editor-line-mktg d-inline-block js-type-letters">    &lt;/<span class="pl-ent">div</span>&gt;</span></pre>
                                             <pre class="f4"><span class="code-editor-line-mktg d-inline-block js-type-letters">&lt;/<span class="pl-ent">div</span>&gt;</span></pre>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
