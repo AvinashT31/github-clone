@@ -143,7 +143,7 @@ const Home = () => {
 
                 {/* Code */}
                 <main className='pt-1 w-full h-128 bg-gray-800'>
-                    <div className='border border-zinc-600 w-4/5 m-auto mt-20 h-139 rounded-2xl'>
+                    <div className='border border-zinc-600 w-11/12 m-auto mt-20 h-139 rounded-2xl'>
                         <div className='border border-zinc-600 w-full h-12 rounded-t-2xl flex'>
                             <div className='w-16 h-full flex justify-center items-center'>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#ffffff" viewBox="0 0 256 256"><path d="M168.49,199.51a12,12,0,0,1-17,17l-80-80a12,12,0,0,1,0-17l80-80a12,12,0,0,1,17,17L97,128Z"></path></svg>
@@ -224,6 +224,45 @@ const Home = () => {
                         </div>
                     </div>
 
+                </main>
+
+                <main className='w-full bg-gray-800 h-138 z-10'>
+                    <div className='w-11/12 m-auto h-143 flex justify-between'>
+                        <div className='w-24 h-full flex justify-center items-center'>
+                            <div className='w-131 h-full ml-4 bg-primary rounded'>
+
+                            </div>
+                            <div>
+                                <img className='relative top-24' src="https://github.githubassets.com/images/modules/site/home-campaign/git-branch-productivity.svg" alt="" />
+                            </div>
+                        </div>
+                        <div className='w-11/12 h-full bg-[url(https://github.githubassets.com/images/modules/site/home-campaign/bg-stars-1.webp)] bg-cover'>
+                            <div className='w-full h-64 flex justify-between mt-6'>
+                                <div className='w-2/5 h-full'>
+                                    <p className='text-left text-xl font-bold mt-5 text-white'>GitHub Codespaces<span className='text-gray-500'> offers a complete dev environment in seconds, so you can code, build, test, and open pull requests from any repo anywhere</span></p>
+                                    <div className='w-80 h-8 mt-5 font-bold text-white flex justify-start items-center'>
+                                        <p>Check out GitHub Codespaces</p>
+                                        <svg className='ml-5' xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#ffffff" viewBox="0 0 256 256"><path d="M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z"></path></svg>
+                                    </div>
+                                </div>
+                                <div className='w-1/2 h-full'>
+                                    <img className='w-80 mt-5 ml-12' src="https://github.githubassets.com/images/modules/site/codespaces/illo-ports.png" alt="" />
+                                    <img className='w-72 relative left-64 bottom-80' src="https://github.githubassets.com/images/modules/site/codespaces/illo-context-menu.png" alt="" />
+                                </div>
+                            </div>
+                            <div className='w-full h-40 mt-16'>
+                                <div className='border border-primary text-primary w-24 h-5 rounded-2xl flex justify-center items-center'>
+                                    <p className=' text-left text-xs'>Did you know</p>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#2ea043" viewBox="0 0 256 256"><path d="M144,180a16,16,0,1,1-16-16A16,16,0,0,1,144,180Zm92-52A108,108,0,1,1,128,20,108.12,108.12,0,0,1,236,128Zm-24,0a84,84,0,1,0-84,84A84.09,84.09,0,0,0,212,128ZM128,64c-24.26,0-44,17.94-44,40v4a12,12,0,0,0,24,0v-4c0-8.82,9-16,20-16s20,7.18,20,16-9,16-20,16a12,12,0,0,0-12,12v8a12,12,0,0,0,23.73,2.56C158.31,137.88,172,122.37,172,104,172,81.94,152.26,64,128,64Z"></path></svg>
+                                </div>
+                                <div className='text-left mt-5'>
+                                    <h1 className='text-5xl font-bold text-primary'>22% increase</h1>
+                                    <p className='mt-3 font-bold text-2xl text-white'>in developer productivity
+                                        after three years with GitHub1</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </main>
             </div>
         </>
